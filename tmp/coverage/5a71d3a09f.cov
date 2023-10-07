@@ -1,0 +1,86 @@
+<?php
+$coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
+$coverage->setData(array (
+  'D:\\SoftApp\\PHPServer\\www\\index.php' => 
+  array (
+    5 => 
+    array (
+      0 => 'coverage',
+    ),
+    7 => 
+    array (
+      0 => 'coverage',
+    ),
+    14 => 
+    array (
+      0 => 'coverage',
+    ),
+    15 => 
+    array (
+      0 => 'coverage',
+    ),
+    20 => 
+    array (
+      0 => 'coverage',
+    ),
+    21 => 
+    array (
+      0 => 'coverage',
+    ),
+    23 => 
+    array (
+      0 => 'coverage',
+    ),
+    24 => 
+    array (
+      0 => 'coverage',
+    ),
+    26 => 
+    array (
+      0 => 'coverage',
+    ),
+    27 => 
+    array (
+      0 => 'coverage',
+    ),
+    28 => 
+    array (
+      0 => 'coverage',
+    ),
+    29 => 
+    array (
+      0 => 'coverage',
+    ),
+    37 => 
+    array (
+      0 => 'coverage',
+    ),
+  ),
+  'D:\\SoftApp\\PHPServer\\www\\controllers\\request2.php' => 
+  array (
+    7 => 
+    array (
+      0 => 'coverage',
+    ),
+    8 => 
+    array (
+      0 => 'coverage',
+    ),
+  ),
+));
+$coverage->setTests(array (
+  'coverage' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+));
+
+$filter = $coverage->filter();
+$filter->setWhitelistedFiles(array (
+  'D:\\SoftApp\\PHPServer\\www\\controllers\\request1.php' => true,
+  'D:\\SoftApp\\PHPServer\\www\\controllers\\request2.php' => true,
+  'D:\\SoftApp\\PHPServer\\www\\index.php' => true,
+));
+
+return $coverage;
